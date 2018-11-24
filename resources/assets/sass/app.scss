@@ -1,0 +1,66 @@
+
+/* Over writing Bootstrap Variables */
+$btn-primary-bg: #4169e2 !default; /* button background color */
+$btn-primary-border: #4169e2 !default; /* border color */
+$btn-primary-color: #e6e6e8 !default; /* button font color */
+$font-size-large:15px;
+$btn-border-radius-large: 3px;
+
+$link-color : #363a3d !default; /* Link Font Color */
+
+/* Custom Variables */
+$sct-light-blue: #42a5f6;
+
+/* Custom Navbar Variables */
+$navbar-margin-bottom: 0 !default;
+@media (min-width: 768px) {
+	$navbar-height: auto !default;
+}
+$navbar-border-radius : 0;
+$navbar-default-bg : #FFFFFF;
+
+$grid-float-breakpoint : 1200px !default;
+
+$sparkle-font-lg : 16px;
+$sparkle-font-md : 15px;
+$sparkle-font-default : 14px;
+
+
+/* VENDORS */
+@import "vendor/bootstrap.scss";
+@import "vendor/fontawesome/font-awesome";
+@import "vendor/slick-theme";
+@import "vendor/slick";
+@import "vendor/sweetalert";
+@import "vendor/jquery-jvectormap-2.0.3";
+
+/* GLOBAL STYLING */
+@import "global";
+
+/* WEBSITE PAGES */
+@import "web_pages/partials/header.scss";
+@import "web_pages/partials/brochure.scss";
+
+@import "web_pages/home-v1.scss";
+@import "web_pages/careers.scss";
+@import "web_pages/team.scss";
+@import "web_pages/about.scss";
+@import "web_pages/quality.scss";
+@import "web_pages/contact.scss";
+@import "web_pages/our-reach.scss";
+@import "web_pages/client_and_consultant.scss";
+@import "web_pages/case_studies_listing.scss";
+@import "web_pages/case_study.scss";
+@import "web_pages/sectors.scss";
+@import "web_pages/solutions.scss";
+@import "web_pages/projects.scss";
+@import "web_pages/technology.scss";
+@import "web_pages/site_map.scss";
+@import "web_pages/products_listing.scss";
+@import "web_pages/product.scss";
+@import "web_pages/product_support.scss";
+@import "web_pages/downloads.scss";
+
+@import "web_pages/partials/footer.scss";
+
+

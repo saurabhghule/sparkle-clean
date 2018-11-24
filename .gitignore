@@ -1,0 +1,10 @@
+/.idea
+/vendor
+/node_modules
+.env
+.DS_Store
+composer.lock
+.idea/workspace.xml
+public/resume
+.idea/
+public/campaign

@@ -1,0 +1,126 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+#leverage browser caching for static resources
+
+
+    RewriteEngine On
+
+        #Redirects
+    RewriteRule ^projects-sparkle-clean-tech/waste-water-management-projects.asp	/waste-water-management-project [L,R=301]
+    RewriteRule ^projects-sparkle-clean-tech/water-management.asp	/water-management-project [L,R=301]
+    RewriteRule ^manufacturing-sparkle-clean-tech/manufacturing-sparkle-clean-tech.asp	/about-us [L,R=301]
+    RewriteRule ^sparkle-clean-tech/contact-sparkle-clean-tech.asp	/contact-us [L,R=301]
+    RewriteRule ^projects-sparkle-clean-tech/government-projects.asp	/government-project [L,R=301]
+    RewriteRule ^sparkle-clean-tech/about-sparkle-clean-tech.asp	/about-us [L,R=301]
+    RewriteRule ^sparkle-clean-tech/sparkle-clean-tech-quality-policy.asp	/quality-policy [L,R=301]
+    RewriteRule ^sparkle-clean-tech/sparkle-clean-tech-management-team.asp	/team [L,R=301]
+    RewriteRule ^sparkle-clean-tech/sparkle-clean-tech-business-overview.asp	/about-us [L,R=301]
+    RewriteRule ^sitemap.asp	/sitemap [L,R=301]
+    RewriteRule ^careers-sparkle-clean-tech/current-opening.asp	/careers [L,R=301]
+    RewriteRule ^technology-sparkle-clean-tech/technology.asp?t_id=2	http://www.sparklecleantech.com
+    RewriteRule ^technology-sparkle-clean-tech/technology.asp?t_id=1	http://www.sparklecleantech.com
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=1	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=2	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=7	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=4	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=19	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=8	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=5	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=6	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=9	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=20	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=24	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=21	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=3	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=22	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=7	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=28	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=25	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=29	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=4	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=23	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=27	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=26	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=14	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=16	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=15	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=5	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=11	/products [L,R=301]
+    RewriteRule ^sparkle-clean-tech/sparkle-clean-tech-mission-vision.asp	/about-us [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=17	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=12	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=10	/products [L,R=301]
+    RewriteRule ^careers-sparkle-clean-tech/careers.asp	/careers [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?a_id=13	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=13	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=14	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=10	/products [L,R=301]
+    RewriteRule ^technology-sparkle-clean-tech/technology.asp	/ [L,R=301]
+    RewriteRule ^projects-sparkle-clean-tech/case-studies.asp	/case-studies [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=18	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=16	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=17	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=15	/products [L,R=301]
+    RewriteRule ^careers-sparkle-clean-tech/apply-online.asp	/careers [L,R=301]
+    RewriteRule ^default.asp	http://www.sparklecleantech.com
+    RewriteRule ^careers-sparkle-clean-tech/apply-online.asp?j_id=4	/careers [L,R=301]
+    RewriteRule ^technology-sparkle-clean-tech/technology.asp?t_id=3	/ [L,R=301]
+    RewriteRule ^technology-sparkle-clean-tech/technology.asp?t_id=4	/ [L,R=301]
+    RewriteRule ^clients-industries-sparkle-clean-tech/list-of-clients.asp	/clients [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=32	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=30	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=36	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=33	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=35	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?c_id=3&fi=1	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?c_id=5&fi=1	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?c_id=4&fi=1	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=17	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?c_id=2&fi=1	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=19	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=18	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=13	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=12	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=11	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=14	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=28	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=15	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=20	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=22	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=16	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=21	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=23	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=24	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=25	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=27	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=26	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=5	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=4	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=1	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=3	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=2	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=9	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=8	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=7	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?c_id=1&fi=1	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=37	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-list.asp?fi=1&s_id=6	/products [L,R=301]
+    RewriteRule ^products-sparkle-clean-tech/products-details.asp?p_id=38	/products [L,R=301]
+
+#       redirect non-www to www
+        RewriteCond %{HTTP_HOST} !^www\.
+        RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+        # Routes with /blog to be ignored by laravel
+        RewriteCond $1 !^(blog)
+
+        # Redirect Trailing Slashes...
+        RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

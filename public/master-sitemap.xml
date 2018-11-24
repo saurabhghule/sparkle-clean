@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+
+      <loc>http://www.sparklecleantech.com/products</loc>
+
+      <lastmod>2017-03-24</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+
+<url>
+
+      <loc>http://www.sparklecleantech.com/technology</loc>
+
+      <lastmod>2017-03-24</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+
+<url>
+
+      <loc>http://www.sparklecleantech.com/sectors</loc>
+
+      <lastmod>2017-03-24</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+
+<url>
+
+      <loc>http://www.sparklecleantech.com/solutions</loc>
+
+      <lastmod>2017-03-24</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+<url>
+
+      <loc>http://www.sparklecleantech.com/case-studies</loc>
+
+      <lastmod>2017-03-24</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+<url>
+
+      <loc>http://www.sparklecleantech.com/company</loc>
+
+      <lastmod>2017-03-24</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+<url>
+      <loc>http://www.sparklecleantech.com/image</loc>
+
+      <lastmod>2017-03-24</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+</urlset> 

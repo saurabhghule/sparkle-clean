@@ -1,0 +1,12 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://www.sparklecleantech.com/master-sitemap.xml
+Sitemap: http://www.sparklecleantech.com/main-sitemap.xml
+Sitemap: http://www.sparklecleantech.com/products-sitemap.xml
+Sitemap: http://www.sparklecleantech.com/technology-sitemap.xml
+Sitemap: http://www.sparklecleantech.com/sectors-sitemap.xml
+Sitemap: http://www.sparklecleantech.com/solutions-sitemap.xml
+Sitemap: http://www.sparklecleantech.com/case-studies-sitemap.xml
+Sitemap: http://www.sparklecleantech.com/company-sitemap.xml
+Sitemap: http://www.sparklecleantech.com/image-sitemap.xml

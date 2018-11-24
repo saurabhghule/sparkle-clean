@@ -1,0 +1,121 @@
+
+
+.case__study{
+
+	&.section__1{
+		position: relative;
+		width: 100%;
+		background-position: 0 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-top: 92px;
+
+		.banner__content{
+		    padding: 120px 0;
+
+			.tagline{
+				position:relative;
+			    display: inline-block;
+			    padding: 50px 80px;
+			    font-size: 28px;
+			    color: #ffffff;
+			    line-height: 1;
+
+			    @media (max-width: $screen-sm-max){ padding: 50px; }
+
+			    .pivot{
+					position: absolute;
+					background-color: #FFFFFF;
+
+					&.top-h,&.bottom-h{
+						width: 45px;
+						height: 2px;
+					}
+
+					&.top-v,&.bottom-v{
+						height: 45px;
+						width: 2px;
+					}
+
+					&.top-h,&.top-v{
+						top: 0;
+						left: 0;
+					}
+
+					&.bottom-v,&.bottom-h{
+						right: 0;
+						bottom:0;
+					}
+				}
+			}
+		}
+
+		.banner__overlay{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba($sct-light-blue,0.4);
+		}
+	}
+
+	&.section__2{
+		.section__head{ margin-bottom: 20px; }
+		
+		.section__image{
+			padding: 15px 0 0;
+			img{ max-width: 100%; }
+		}
+
+		.flex__box{
+			@media (min-width: $screen-sm-max){ display: flex; }
+
+			.padding-top-100{ padding-top: 100px; }
+		}
+
+		.vertical__border{
+			position: relative;
+		    width: 1px;
+		    margin: 0 auto;
+		    background-color: #cccccc;
+		    height: 100%;
+		}
+
+		.section__content{
+			p{ margin: 20px 0 0; }
+
+			ul{ 
+				padding-left: 25px;
+				padding-top: 15px;
+				list-style-type: none;
+
+				li{ 
+					margin-top: 5px; 
+					position: relative;
+					&::before{
+					    content: '';
+					    position: absolute;
+					    top: 2px;
+					    left: -24px;
+					    width: 7px;
+					    height: 14px;
+					    border-top: 2px solid transparent;
+					    border-left: 2px solid transparent;
+					    border-right: 2px solid #42a6f4;
+					    border-bottom: 2px solid #42a6f4;
+					    -webkit-transform: rotateZ(37deg);
+					    transform: rotateZ(37deg);
+					    -webkit-transform-origin: 100% 100%;
+					    transform-origin: 100% 100%;
+					}
+				}
+			}
+
+
+			img{
+				@media (max-width : $screen-xs-max){ width : 100%; }
+			}
+		}
+	}
+}

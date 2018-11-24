@@ -1,0 +1,15 @@
+.message_box {
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+  top: 135px;
+  @media all and (min-width : 229px) and (max-width : 640px) {
+    top: 100px;
+  }
+  h4 {
+    color: white;
+    .tag {
+      padding: 0 10px;
+    }
+  }
+}

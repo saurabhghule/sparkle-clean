@@ -1,0 +1,318 @@
+
+
+.careers__page{
+
+	&.section__1{
+		position: relative;
+		width: 100%;
+		background-image: url('/img/careers_page/careers_banner.jpg');
+		background-position:center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-top: 92px;
+
+		.banner__content{
+		    padding: 120px 0;
+
+			.tagline{
+				position:relative;
+			    display: inline-block;
+			    padding: 50px 80px;
+			    font-size: 28px;
+			    color: #ffffff;
+			    line-height: 1;
+
+			    .pivot{
+					position: absolute;
+					background-color: #FFFFFF;
+
+					&.top-h,&.bottom-h{
+						width: 45px;
+						height: 2px;
+					}
+
+					&.top-v,&.bottom-v{
+						height: 100%;
+						width: 2px;
+					}
+
+					&.top-h,&.top-v{
+						top: 0;
+						left: 0;
+					}
+
+					&.bottom-v,&.bottom-h{
+						right: 0;
+						bottom:0;
+					}
+				}
+			}
+		}
+
+		.banner__overlay{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba($sct-light-blue,0.4);
+		}
+	}
+
+	&.section__2{
+
+		.careers__card{
+			padding: 40px 15px 0;
+    		text-align: center;
+
+    		@media (min-width: 768px) and (max-width: 992px){ padding: 50px 40px 0; }
+    		@media (min-width: 992px) { padding: 50px 70px 0; }
+
+			&__icon{
+				position: relative;
+				width: 250px;
+				height: 130px;
+				margin: 0 auto;
+				border: 1px solid #eeeeee;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+
+				&--partner{background-image: url('/img/careers_page/partner_icon.jpg');}
+				&--strength{background-image: url('/img/careers_page/strength_icon.jpg');}
+				&--user{background-image: url('/img/careers_page/user_icon.jpg');}
+				&--benefit{background-image: url('/img/careers_page/benefit_icon.jpg');}
+
+				.pivot{
+					position: absolute;
+					background-color: $sct-light-blue;
+
+					&.top-h,&.bottom-h{
+						width: 45px;
+						height: 2px;
+					}
+
+					&.top-v,&.bottom-v{
+						height: 45px;
+						width: 2px;
+					}
+
+					&.top-h,&.top-v{
+						top: 0;
+						left: 0;
+					}
+
+					&.bottom-v,&.bottom-h{
+						right: 0;
+						bottom:0;
+					}
+				}
+			}
+
+			&__desc{ 
+				padding-top: 30px; 
+				text-align: justify;
+			}
+		}
+	}
+
+	&.section__3{
+		.openings{
+
+			.nav__arrow{
+		        position: absolute;
+		        top: 10px;
+		        z-index: 1;
+		        cursor: pointer;
+		        font-size: 20px;
+
+		        @media (max-width: 768px){ top: 15px; }
+
+		        &__prev{
+	         		right: 40px; 
+					@media (max-width: 768px){ right: 25px; }	         		
+		     	}
+		        &__next{ 
+		        	right: 20px; 
+		        	@media (max-width: 768px){ right: 0px; }
+		        }
+		    }
+
+			&__slide{
+				&__img{
+					margin-top: 40px;
+					@media (max-width: 768px){ margin-top: 50px; }
+
+					img{
+						border: 2px solid $sct-light-blue;
+						max-width: 100%;
+					    margin: 0 auto;
+
+					    @media (min-width: 768px){max-width: 100%;}
+					}
+				}
+
+				&__content{
+					margin-top: 35px;
+
+					// @media (min-width: 768px){ padding-top: 30px; }
+
+					.content{
+						&__title{
+							font-size: 18px;
+	    					margin-bottom: 15px;
+						}
+
+						&__list{
+						    padding-left: 0;
+						    list-style: none;
+						    margin-bottom: 0;
+
+						    &__items{ 
+						    	margin-top: 8px; 
+						    	padding-left: 30px;
+						    	position: relative;
+
+						    	&::before{
+						    		content: '';
+								    width: 25px;
+								    height: 20px;
+								    position: absolute;
+								    background-image: url("/img/careers_page/bullet.png");
+								    background-size: cover;
+								    background-position: center;
+								    left: 0px;
+								    top: 0;
+						    	}
+						    }
+						}
+
+						&__cta{
+							text-align: right;
+							margin-top: 15px;
+							margin-right: 10px;
+							margin-bottom: 5px;
+
+							.sc_btn__cta{ 
+								padding: 10px 35px; 
+								font-size: 13px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.section__4{
+		background-color: $sct-light-blue;
+
+		.section__head{
+			&__desc{
+				color: #FFFFFF;
+			}
+		}
+
+		.section__sub__head{ color: #FFFFFF; }
+
+		.app__form{
+			margin-top: 25px;
+
+			&__group{
+				margin-bottom: 25px;
+				position: relative;
+
+				@media (min-width: 768px){
+					&:last-child{ margin-bottom: 0; }
+				}
+
+				.icons{
+				    width: 20px;
+				    height: 20px;
+				    display: inline-block;
+				    position: absolute;
+				    top: 6px;
+				    left: 6px;
+
+				    img{ width: 100%; }
+				}
+
+				input[type='file']{
+					padding: 0;
+				    width: 0.1px;
+				    height: 0.1px;
+				    opacity: 0;
+				    overflow: hidden;
+				    position: absolute;
+				    z-index: -1;
+
+				    & + label{
+				    	padding: 6px 12px 6px 35px;
+					    font-weight: 400;
+					    font-size: 13px;
+					    color: #fff;
+					    border-bottom: 1px solid #fff;
+					    display: block;
+					    line-height: 2.1;
+					    cursor: pointer;
+				    }
+				}
+
+				.submit__btn{
+				    padding: 10px 30px;
+				    background-color: #FFF;
+				    display: inline-block;
+				    border-radius: 3px;
+				    font-size: 13px;
+				    text-decoration: none;
+				    border: 0;
+				}
+				
+			}
+
+			&__field{
+			    background-color: transparent;
+			    border: 1px solid #ffffff;
+				border-top: 0;
+			    border-right: 0;
+			    border-left: 0;
+			    box-shadow: none;
+			    border-radius: 0;
+			    font-size: 13px;
+			    padding: 6px 12px 6px 35px;
+			    color: #FFFFFF;
+
+			    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+				  color: rgba(0,0,0,0.2);
+				  font-style: italic;
+				}
+				&::-moz-placeholder { /* Firefox 19+ */
+				  color: rgba(0,0,0,0.2);
+				  font-style: italic;
+				}
+				&:-ms-input-placeholder { /* IE 10+ */
+				  color: rgba(0,0,0,0.2);
+				  font-style: italic;
+				}
+				&:-moz-placeholder { /* Firefox 18- */
+				  color: rgba(0,0,0,0.2);
+				  font-style: italic;
+				}
+
+				&:-webkit-autofill,{
+			        background-color: transparent !important;
+			        -webkit-box-shadow: 0 0 0 1000px #42a5f6 inset !important;
+			        -webkit-text-fill-color: rgb(255, 255, 255);
+			    }
+			}
+
+			.vertical__border{
+				position: relative;
+			    width: 1px;
+			    margin: 0 auto;
+			    padding: 118px 0;
+			    background-color: #FFFFFF;
+			}
+		}
+	}
+}
